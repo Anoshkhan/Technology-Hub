@@ -26,6 +26,7 @@ const Header = () => {
       p={'0'} 
       h={'10'} 
       w={'10'}
+      zIndex={'2'}
       onClick={onOpen}
       >
         <BiMenuAltLeft size={'20'}/>
