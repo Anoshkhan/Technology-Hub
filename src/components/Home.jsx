@@ -7,6 +7,7 @@ import img2 from "../assets/22.jpg";
 import img3 from "../assets/3.jpg";
 import img4 from "../assets/4.jpg";
 import img5 from "../assets/5.png";
+import services from "../assets/s.jpg";
 
 const headingOptions = {
   pos: 'absolute',
@@ -41,9 +42,10 @@ const Home = () => {
             direction={['column','row']}//responsive design row and columns according to screensize
 
             >
-            <Image src={img5} h={['40', '340']}/>
-            <Text letterSpacing={"widest"} lineHeight={"1.5"} p={['4','20']} justifyContent={'center'}>
+            <Image src={services} h={['40', '350']} marginRight={['0','3']} w={['120%', '100%']}/>
+            <Text letterSpacing={"widest"} lineHeight={"1.5"} p={['0','5']} justifyContent={'center'} marginTop={'4'} color={'purple'}>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            Sed doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
             </Text>
             </Stack>
         </Container>
