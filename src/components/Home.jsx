@@ -43,7 +43,7 @@ const Home = () => {
 
             >
             <Image src={services} h={['40', '350']} marginRight={['0','3']} w={['120%', '100%']}/>
-            <Text letterSpacing={"widest"} lineHeight={"1.5"} p={['0','5']} justifyContent={'center'} marginTop={'4'} color={'purple'}>
+            <Text letterSpacing={"widest"} lineHeight={"1.5"} p={['0','5']} justifyContent={'center'} marginTop={'4'} textAlign={'justify'}>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
             Sed doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
             </Text>
@@ -61,7 +61,7 @@ const Home = () => {
         </Box>
         <Box w="full" h={'100vh'}>
             <Image src={img2} h="full" w={"full"} objectFit={'cover'}/>
-            <Heading bgColor={'blackAlpha.600'} color={"white"} {...headingOptions}>Future is Gaming</Heading>
+            <Heading bgColor={'blackAlpha.600'} color={"white"}{...headingOptions}>Future is Gaming</Heading>
         </Box>
         <Box w="full" h={'100vh'}>
             <Image src={img3} h="full" w={"full"} objectFit={'cover'}/>
