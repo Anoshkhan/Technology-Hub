@@ -1,6 +1,5 @@
 import { Heading, Stack, VStack, Text, Button } from '@chakra-ui/react'
 import React, { useState } from 'react';
-import video1 from "../assets/video1.mp4"
 
 const Videos = () => {
   const videosArr = [
@@ -17,16 +16,16 @@ const Videos = () => {
     <Stack direction={['column', 'row']} h={'100vh'}>
         <VStack w={'full'}>
             <video
-            controls controlsList='nodownload' src={videoSrc} style={{width:'100%', height:'70vh'}}
+            controls controlsList='nodownload' src={videoSrc} style={{width:'100%'}}
             >
 
             </video>
         <VStack alignItems={'flex-start'} w={'full'} p={'8'} overflowY={'auto'}>
             <Heading>Sample Video</Heading>
-            <Text>Interactive experience that combines the real world.AR delivers visual elements, sound and other sensory information to the user through a device like a smartphone or glasses. This information is overlaid onto the device to create an interwoven experience where digital information alters the user's perception of the real world. The overlaid information can be added to an environment or mask part of the natural environment. </Text>
+            <Text>Interactive experience that combines the real world.AR delivers visual elements, sound and other sensory information to the user through a device like a smartphone or glasses. This information is overlaid onto the device to create an interwoven experience where digital information alters the user's perception of the real world.  </Text>
         </VStack>
         </VStack>
-        <VStack width={['full','xl']} alignItems={'stretch'} p='8' spacing={'8'} overflow={'auto'}> 
+        <VStack width={['full','xl']} alignItems={'stretch'} p='8' spacing={'8'} overflowY={'auto'}> 
           
           {
             videosArr.map((item, index) => (

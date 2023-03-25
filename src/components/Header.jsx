@@ -45,10 +45,10 @@ const Header = () => {
                   <Link to={"/videos"}>Videos</Link>
                 </Button>
                 <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
-                  <Link to={"/video?category=free"}>Free Videos</Link>
+                  <Link to={"/upload"}>Upload Video</Link>
                 </Button>
                 <Button onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
-                  <Link to={"/upload"}>Upload Video</Link>
+                  <Link to={"/videos"}>Free Videos</Link>
                 </Button>
               </VStack>
               <HStack pos={'absolute'}  bottom={'10'} left={'20'} w={"100%"}>

@@ -57,19 +57,19 @@ const Home = () => {
     <Carousel autoPlay infiniteLoop interval={2000} showStatus={false}>
         <Box w="full" h={'100vh'}>
             <Image src={img7} h="full" w={"full"} objectFit={'cover'}/>
-            <Heading bgColor={'blackAlpha.600'} color={"white"} {...headingOptions}>Watch the Future</Heading>
+            <Heading bgColor={'blackAlpha.600'} fontSize={['30','50']} color={"white"} {...headingOptions}>Watch the Future</Heading>
         </Box>
         <Box w="full" h={'100vh'}>
             <Image src={img2} h="full" w={"full"} objectFit={'cover'}/>
-            <Heading bgColor={'blackAlpha.600'} color={"white"}{...headingOptions}>Future is Gaming</Heading>
+            <Heading bgColor={'blackAlpha.600'}  fontSize={['30','50']} color={"white"}{...headingOptions}>Future is Gaming</Heading>
         </Box>
         <Box w="full" h={'100vh'}>
             <Image src={img3} h="full" w={"full"} objectFit={'cover'}/>
-            <Heading bgColor={'blackAlpha.600'} color={"white"} {...headingOptions}>I'm a gamer</Heading>
+            <Heading bgColor={'blackAlpha.600'}  fontSize={['30','50']} color={"white"} {...headingOptions}>I'm a gamer</Heading>
         </Box>
         <Box w="full" h={'100vh'}>
             <Image src={img4} h="full" w={"full"} objectFit={'cover'}/>
-            <Heading bgColor={'blackAlpha.600'} color={"white"} {...headingOptions}>With You All Night</Heading>
+            <Heading bgColor={'blackAlpha.600'}  fontSize={['30','50']} color={"white"} {...headingOptions}>With You All Night</Heading>
         </Box>
     </Carousel>
  );
