@@ -7,7 +7,7 @@ This is a Augmented Reality videos website User Interface.
 ### Packages
 * React Icons
 * Responsive Responsive Carousel
-![Project2](https://user-images.githubusercontent.com/84200302/227914886-e7ec731a-15b5-4dce-ba1a-47164c26c88e.png)<br>
+![Project2](https://user-images.githubusercontent.com/84200302/227914886-e7ec731a-15b5-4dce-ba1a-47164c26c88e.png)<br />
 ![img2](https://user-images.githubusercontent.com/84200302/227914952-afa83ec0-21d4-43ae-99bf-3e9d581cb2a9.png)
 ![img3](https://user-images.githubusercontent.com/84200302/227914989-e9c5f93f-f223-4ea1-ad09-e9ba49bbc224.png)
 ![img4](https://user-images.githubusercontent.com/84200302/227915030-696c8955-9f1f-4b1a-8bf1-5fcb47530985.png)
